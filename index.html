@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"   />
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/document.css">
     <title>Desafio Maker II</title>
 
 
 </head>
+
 <body>
 
     <!--NAV BAR DA LANDING PAGE-->
@@ -70,12 +76,508 @@
         <!--SECTION DOCUMENTOS QUE IRA CONTER TODA A DOCUMENTAÇAO EM GRID-->
         <section>
 
+             <!--DIV DA DOCUMENTAÇÃO - OBRIGAÇÕES DOS PARTICIPANTES  -->
+             <div class="container container-participantes" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center; margin-bottom: 4em;">
+                        <h2>DOCUMENTAÇÃO</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - OBJETIVOS -->
+            <div class="container container-objetivos">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/alvo-de-dardos.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>1. OBJETIVO</strong></h2>
+                        <br>
+                        <p class="col-md-10">
+                            Esta chamada objetiva estimular os estudantes do IFSULDEMINAS a apresentarem soluções e/ou
+                            protótipos que serão criados, durante o evento “2º Desafio Maker do IFSULDEMINAS”, que
+                            acontecerá no Campus Machado, situado na Rod. Machado - Paraguaçu, s/n - Santo Antônio,
+                            cidade de Machado/MG, com foco na seguinte temática:
+                        </p>
+                        <h4>Campus inteligente</h4>
+                        <p class="col-md-10">
+                            Criação de soluções inovadoras para transformar os campi da instituição em ambientes
+                            inteligentes, integrados e sustentáveis. Utilizando tecnologias emergentes da automação e
+                            IoT, este desafio estimula o desenvolvimento de projetos que melhorem a infraestrutura, os
+                            serviços e a vida no campus. Tópicos sugeridos para serem trabalhados dentro da temática:
+                        </p>
+                        <br>
+                        <ul>
+                            <li>
+                                <h5>Sustentabilidade</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        Projetos que tenham foco em sustentabilidade e responsabilidade ambiental,
+                                            que auxiliem, por exemplo, na captação de água da chuva, reciclagem,
+                                            educação ambiental dentro da instituição.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5>Acessibilidade e Inclusão</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        <p>Projetos para auxiliar na acessibilidade e inclusão acadêmica de pessoas com
+                                            deficiência, como próteses inteligentes com sensores, ou objetos
+                                            educacionais adaptados. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5>Eficiência Informacional</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        <p>Projetos para permitir acesso a informações do campus, como coleta e
+                                            disponibilização de dados de sensores em tempo real.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5>Segurança</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        <p>Projetos para aumentar a segurança no campus, como sistemas de vigilância
+                                            inteligente e aplicativos de segurança pessoal.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5>Mobilidade Inteligente</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        <p>Projetos que facilitem a mobilidade dos estudantes dentro do campus ou entre
+                                            a cidade e o campus</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5>Automação Inteligente em Setores Administrativos ou Produtivos</h5>
+                                <ul class="col-md-8 decorated-ul">
+                                    <li class="decorated-list">
+                                        <p>Projetos de automação inteligente para gerenciamento de estoque, veículos ou
+                                            para coleta de dados de sensores e automação em setores de produção.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - REQUISITOS PARA PARTICIPAÇÃO -->
+            <div class="container container-requisitos" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/requisitos.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>2. REQUISITOS PARA PARTICIPAÇÃO</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Estar regularmente matriculado nos cursos de ensino médio e/ou técnico e de graduação do IFSULDEMINAS.</li>
+                            <li class="col-md-10">Serão disponibilizadas 02 (duas) vagas para cada campus do IFSULDEMINAS, limitado a 16 equipes ao total. </li>
+                            <li class="col-md-10">Os estudantes formarão equipes de, no máximo, 3 (três) alunos e 01 (um) professor/tutor que coordenará a equipe. </li>
+                            <li class="col-md-10">A equipe terá como coordenador/tutor 1 (um) professor ou técnico, que poderá ser o mesmo para as duas equipes do mesmo campus. </li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - INSCRIÇÕES -->
+            <div class="container container-inscricao" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/inscricao.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>3. INSCRIÇÕES</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A inscrição deverá ser realizada por um servidor do IFSULDEMINAS, Coordenador da equipe, no período de 15 de abril até às 23h59 do dia 12 de maio de 2024, exclusivamente, por meio do link: <a href="https://forms.gle/a9bpt7Z3QyEan3S18">https://forms.gle/a9bpt7Z3QyEan3S18.</a>.</li>
+                            <li class="col-md-10">As inscrições no “2º Desafio Maker do IFSULDEMINAS” são gratuitas.</li>
+                            <li class="col-md-10">Cada equipe deverá possuir um “NOME” que a identifique no evento.</li>
+                            <li class="col-md-10">Ao término do prazo para as inscrições, de acordo com o cronograma, a comissão organizadora homologará as inscrições e divulgará no site do IFSULDEMINAS conforme cronograma no item 7 deste edital </li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - SELEÇÃO -->
+            <div class="container container-selecao" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/recrutamento.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>4. SELEÇÃO</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A homologação das inscrições será divulgada no dia 13/05/2024, no portal do IFSULDEMINAS.</li>
+                            <li class="col-md-10">Os participantes serão classificados de acordo com a data e o horário (dia/hora/minutos - horário de Brasília) da inscrição, respeitando o número de vagas definidas neste Edital.</li>
+                            <li class="col-md-10">Seguindo o critério de "dia/hora/minutos" (horário de Brasília) serão indeferidas as inscrições das equipes feitas após a confirmação das 16 primeiras equipes (limite máximo).</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - OBRIGAÇÕES DO IFSULDEMINAS  -->
+            <div class="container container-ifsuldeminas" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/IFSULDEMINAS.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>5. OBRIGAÇÕES DO IFSULDEMINAS</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Disponibilizar a estrutura para a execução do evento e dos projetos, o “Espaço Maker”.</li>
+                            <li class="col-md-10">O campus da equipe selecionada em 1º lugar deverá disponibilizar a estrutura necessária para o desenvolvimento do projeto no “Espaço Maker”.</li>
+                            <li class="col-md-10">Disponibilizar acesso à internet para as equipes.</li>
+                            <li class="col-md-10">Oferecer aos participantes, durante a realização do evento, alimentação.</li>
+                            <li class="col-md-10">Divulgar a listagem com os materiais que estarão disponíveis para as equipes escolherem, tendo como referência a ordem de inscrição para definir a prioridade de escolha.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+
+            <!--DIV DA DOCUMENTAÇÃO - OBRIGAÇÕES DOS PARTICIPANTES  -->
+            <div class="container container-participantes" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/equipe.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>6. OBRIGAÇÕES DOS PARTICIPANTES</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Solicitar em seu campus o transporte  até o Campus Machado, que sediará o evento.</li>
+                            <li class="col-md-10">Se credenciar na chegada, levando um documento de identificação.</li>
+                            <li class="col-md-10">Se responsabilizar pelos seus pertences e pelos materiais fornecidos pelo “Espaço Maker” do Campus para execução do projeto.</li>
+                            <li class="col-md-10">Não deixar as dependências do IFSULDEMINAS - Campus Machado durante o evento.</li>
+                            <li class="col-md-10">Se responsabilizar por todo ou qualquer incidente que ocorra fora da área do Evento ou que não tenha ligação com o mesmo.</li>
+                            <li class="col-md-10">Seguir as normas de segurança apresentadas pelo IFSULDEMINAS, usando corretamente o(s) Equipamentos de Proteção Individual (EPI’s) necessário(s) no manuseio das ferramentas.</li>
+                            <li class="col-md-10">Observar atentamente todas as instruções informadas pela organização do “2º Desafio Maker do IFSULDEMINAS”, antes e durante o desenrolar do evento, agindo com respeito e civilidade.</li>
+                            <li class="col-md-10">Levar seus próprios equipamentos, no mínimo, um laptop por equipe com conexão wireless para realização das atividades do desafio.</li>
+                            <li class="col-md-10">Se responsabilizar por qualquer problema técnico que ocorra nos seus computadores ou softwares pois não haverá suporte técnico no IFSULDEMINAS.</li>
+                            <li class="col-md-10">Em caso de uso de software comercial pago, respeitar as normas e termos de licenciamento dos respectivos fabricantes.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - CRONOGRAMA DO EVENTO-->
+            <div class="container container-cronograma" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/cronograma.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-9">
+                        <h2><strong>8. Cronograma do Evento</strong></h2>
+                        <br>
+                        <table>
+                            <tr>
+                              <th>Evento</th>
+                              <th>Data</th>
+                            </tr>
+                            <tr>
+                              <td>Período de inscrições</td>
+                              <td>15/04/2024 a 12/05/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Divulgação da listagem de materiais</td>
+                              <td>15/04/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Homologação das inscrições</td>
+                              <td>13/05/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Data do evento</td>
+                              <td>29/05/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Resultado Final</td>
+                              <td>29/05/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Prazo para recursos*</td>
+                              <td>15 min após a publicação do resultado</td>
+                            </tr>
+                            <tr>
+                              <td>Resultado final após recurso*</td>
+                              <td>1h após a publicação do resultado</td>
+                            </tr>
+                            <tr>
+                              <td>Envio dos dados bancários dos bolsistas para a DITE</td>
+                              <td>31/05/2024</td>
+                            </tr>
+                            <tr>
+                              <td>Período de vigência da bolsa</td>
+                              <td>1 mês (junho 2024)</td>
+                            </tr>
+                            <tr>
+                              <td>Envio de relatório final do projeto e do pitch conforme Anexo II</td>
+                              <td>31/07/2024</td>
+                            </tr>
+                          </table>      
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - EXECUÇÃO DOS PROJETOS  -->
+            <div class="container container-projetos" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/processo.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>8. EXECUÇÃO DOS PROJETOS</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">As atividades terão início a partir das 8h do dia 29 de maio de 2024 (quarta-feira), no “Espaço Sociocultural” do Campus  Machado.</li>
+                            <li class="col-md-10">As equipes terão 06 (seis) horas ininterruptas para criar o projeto e/ou protótipo.</li>
+                            <li class="col-md-10">Todo o trabalho referente ao projeto deverá ser realizado durante o período do evento e com a estrutura compartilhada no “Espaço Maker” e “Laboratório de Robótica”.</li>
+                            <li class="col-md-10">A Comissão Organizadora acompanhará o andamento dos projetos.</li>
+                            <li class="col-md-10">As equipes participantes deverão, ao final, preparar um pitch breve do seu projeto, de no máximo 5’ (cinco minutos), para a comissão avaliadora.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - EQUIPAMENTOS E MATERIAIS DISPONIBILIZADOS PELO “ESPAÇO MAKER”  -->
+            <div class="container container-equipamentos" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/materiais-escolares.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>9. EQUIPAMENTOS E MATERIAIS DISPONIBILIZADOS PELO “ESPAÇO MAKER” </strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Durante o evento, a cada equipe será disponibilizado um kit básico: - 1 (um) arduino compatível modelo Uno R3 com cabo USB; - 1 (um) protoboard 480 pontos; - 20 jumpers macho/macho. - 20 jumpers macho/fêmea - 20 jumpers fêmea/fêmea</li>
+                            <li class="col-md-10"> Para o desenvolvimento do projeto, o coordenador deverá solicitar componentes, sensores e atuadores que estejam disponíveis na lista de materiais do “almoxarifado maker”. Para isto, a equipe deverá preencher o “Formulário de solicitação de componentes e sensores” (Anexo I) que deverá ser enviado pelo coordenador para o e-mail pelo e-maill <a href="mailto:maker.machado@ifsuldeminas.edu.br">maker.machado@ifsuldeminas.edu.br</a> no prazo máximo de 05 (cinco) dias após a finalização das inscrições. O atendimento das solicitações se dará por ordem de inscrição, e caso alguma solicitação não possa ser atendida, o coordenador será informado, podendo alterar o formulário.</li>
+                            <li class="col-md-10">Durante o evento, a equipe terá 1 (uma) oportunidade para solicitar a troca ou solicitar novos componentes, desde que justificada e disponível na lista de materiais.</li>
+                            <li class="col-md-10">Não será permitido durante o evento utilizar placas eletrônicas, sensores ou atuadores que não sejam fornecidos pelo evento.</li>
+                            <li class="col-md-10">Para a criação dos projetos, as equipes poderão usar, de forma compartilhada, ferramentas elétricas (parafusadeira, micro retifica, cortadora de isopor, cola quente), ferramentas manuais (chaves diversas, martelo, alicates, serra), EPIs, estação de solda e suprimentos, multímetros e fontes.</li>
+                            <li class="col-md-10">Serão disponibilizados pedaços de madeira, isopor, papelão, cola, e pregos.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO -  POLÍTICA DE USO DA REDE LOCAL E SEGURANÇA -->
+            <div class="container container-politica" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/local-na-rede-internet.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>10. POLÍTICA DE USO DA REDE LOCAL E SEGURANÇA</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Serão fornecidas instruções para o acesso à rede, durante o evento e ela será monitorada durante a realização do evento.</li>
+                            <li class="col-md-10">Por motivos de segurança, os participantes deverão utilizar os recursos disponíveis exclusivamente para as finalidades do evento. Utilização diversa do previsto deverá ser previamente autorizada pela organização do evento, não sendo tolerada qualquer utilização desvirtuada ou considerada ilícita pelos participantes.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - APRESENTAÇÃO E RESULTADO  -->
+            <div class="container container-apresentacao" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/verificado.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>11. APRESENTAÇÃO E RESULTADO</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A apresentação das equipes, no dia 29/05/2023, seguirá um cronograma elaborado a partir de sorteio.</li>
+                            <li class="col-md-10">A avaliação dos pitches será realizada por uma banca, que será composta por até 3 (três) integrantes, com formação ou experiência na temática do evento.</li>
+                            <li class="col-md-10">A apuração do resultado será realizada pela Comissão Organizadora e o resultado será divulgado no site do IFSULDEMINAS em até, 2 (duas) horas, contados a partir do término da apresentação da última equipe.</li>
+                            <li class="col-md-10">Todas as informações sobre o resultado ficarão disponíveis no site do IFSULDEMINAS.</li>
+                            <li class="col-md-10">Serão classificados e premiados os 03 (três) melhores projetos desenvolvidos durante o evento.</li>
+                            <li class="col-md-10">A comissão avaliadora julgará os trabalhos em conformidade aos critérios abaixo: 
+                                <br>
+                                - inovação;
+                                <br>
+                                - criatividade;
+                                <br>
+                                - aplicabilidade;
+                                <br>
+                                - funcionalidade;
+                                <br>
+                                - usabilidade;
+                                <br>
+                                - segurança;
+                                <br>
+                            </li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - RECURSO  -->
+            <div class="container container-recurso" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/cuidado.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>12. RECURSO </strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A equipe poderá recorrer, caso julgue que tenha sido prejudicada, por violação de uma regra, má conduta de uma equipe ou da administração do concurso com intenção de  prejudicar</li>
+                            <li class="col-md-10">O recurso deverá ser enviado à comissão organizadora do evento, no prazo máximo de 15 minutos, a partir da divulgação do resultado.</li>
+                            <li class="col-md-10">As decisões da comissão organizadora serão finais.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO -  PREMIAÇÃO E CERTIFICAÇÃO  -->
+            <div class="container container-premiacao" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/premiacao.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>13. PREMIAÇÃO E CERTIFICAÇÃO</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A premiação será em medalhas conforme descrição abaixo:
+                                <br>
+                                - Ouro – 1° lugar;
+                                <br>
+                                - Prata – 2° lugar;
+                                <br>
+                                - Bronze – 3° lugar.
+                            </li>
+                            <li class="col-md-10">Os estudantes membros da equipe selecionada em 1º lugar receberão uma bolsa no valor de R$ 700,00 (setecentos reais) por estudante de graduação, e, para estudantes de nível técnico profissionalizante, R$400,00 (reais), por 1 mês (junho/2024), para o desenvolvimento do projeto no “Espaço Maker” do seu campus.</li>
+                            <li class="col-md-10">Os dados bancários dos bolsistas deverão ser encaminhados no email da DITE (dite.empreendedorismo@ifsuldeminas.edu.br) até o 31/05/2024, nomeando o assunto como “Dados bancários dos bolsistas  -  2º Desafio Maker - Campus Inteligente.</li>
+                            <li class="col-md-10">Para fins de prestação de contas, o coordenador da equipe deverá realizar o envio de relatório (Relatório Técnico Final - anexo II) e pitch do resultado final do projeto (de até 10 minutos), em até 30 dias após o término da vigência da bolsa no email da DITE (dite.empreendedorismo@ifsuldeminas.edu.br), nomeando o assunto como “Relatório Técnico Final  -  2º Desafio Maker - Campus Inteligente.</li>
+                            <li class="col-md-10"> Haverá certificado de participação para todos os integrantes das equipes.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO -  DIVULGAÇÃO -->
+            <div class="container container-divulgacao" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/divulgacao.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>14. DIVULGAÇÃO</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">O resultado do Evento será divulgado no site do IFSULDEMINAS após a apresentação das equipes vencedoras.</li>
+                            <li class="col-md-10">Para tanto, todos os participantes no “2º Desafio Maker do IFSULDEMINAS” já terão autorizado a divulgação de suas imagens por ocasião da inscrição.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO -  DIREITOS DE PROPRIEDADE INTELECTUAL -->
+            <div class="container container-direitos" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/direitos-propriedade.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>15. DIREITOS DE PROPRIEDADE INTELECTUAL</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">Os participantes serão responsabilizados por quaisquer violações de direitos de terceiros. O IFSULDEMINAS se reserva o direito de regresso ou, quando aplicável, de denúncia à Lei (ou outra forma de intervenção de terceiro aplicada ao caso concreto) em razão de questionamentos que venha a sofrer por descumprimento do presente item por parte dos participantes.</li>
+                            <li class="col-md-10">No caso das atividades realizadas nesta maratona resultarem em inovações, passíveis de direitos de propriedades intelectuais, serão observadas: a Lei de Propriedade Industrial nº 9.279, de 14 de maio 1996, a Lei de Inovação nº 10.973, de 02 de dezembro de 2004 (redação pela Lei nº 13.243, de 11 de janeiro de 2016) regulamentadas pelo Decreto nº 9.283, de 07 de fevereiro de 2018 e a Política de Inovação do IFSULDEMINAS, aprovada por meio da Resolução do Conselho Superior nº 82, de 15 de dezembro de 2020.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - PUBLICAÇÃO DOS PROJETOS  -->
+            <div class="container container-publicacoes" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/publicacoes-projetos.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>16. PUBLICAÇÃO DOS PROJETOS</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A publicação, a publicidade e a divulgação de trabalhos cujos resultados tenham sido obtidos com os projetos desta maratona deverão, obrigatoriamente, ser feitos no idioma de onde será divulgado e fazer menção expressa ao apoio e iniciativa do IFSULDEMINAS.</li>
+                            <li class="col-md-10">Se utilizada a logomarca do IFSULDEMINAS, deverá haver consulta prévia à Assessoria de Comunicação (ASCOM) para orientações cabíveis.</li>
+                            <li class="col-md-10">As ações publicitárias referentes às propostas financiadas com recursos da União deverão observar rigorosamente as disposições contidas no § 1º do Art. 37 da Constituição Federal, como também aquelas consignadas em Instrução Normativa da Secretaria de Comunicação de Governo e Gestão Estratégica da Presidência da República.</li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - DISPOSIÇÕES FINAIS  -->
+            <div class="container container-disposicoes" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="/icons/disposicoes-finais.png" alt="Ícone" class="icon">
+                    </div>
+                    <div class="col-md-10">
+                        <h2><strong>17. DISPOSIÇÕES FINAIS</strong></h2>
+                        <br>
+                        <ol>
+                            <li class="col-md-10">A efetivação da inscrição, bem como o aceite online de algumas condições, implica no conhecimento do regulamento desta chamada.</li>
+                            <li class="col-md-10">O evento poderá ser suspenso, adiado ou cancelado. Nenhuma das disposições deste  regulamento gera qualquer direito ou expectativa de direito aos participantes com referência 	a qualquer objeto.</li>
+                            <li class="col-md-10">Caso não haja o quantitativo mínimo de 04 equipes inscritas o evento poderá ser suspenso, adiado ou cancelado.</li>
+                            <li class="col-md-10">A participação no “2º Desafio Maker do IFSULDEMINAS” não gera nenhum tipo de  vínculo empregatício com o IFSULDEMINAS.</li>
+                            <li class="col-md-10">Os projetos desenvolvidos neste evento não devem transgredir quaisquer direitos de  terceiros.</li>
+                            <li class="col-md-10">Qualquer participante que utilizar meios fraudulentos e/ou quaisquer outros mecanismos considerados inadequados pela organização do evento será imediatamente desclassificado  junto com a sua equipe.</li>
+                            <li class="col-md-10">Esclarecimentos e informações adicionais poderão ser obtidos somente pelo e-mail dite.empreendedorismo@ifsuldeminas.edu.br, nomeando o assunto como “Dúvidas 2º Desafio Maker”. </li>
+                        </ol>        
+                    </div>
+                </div>
+            </div>
+
+            <!--DIV DA DOCUMENTAÇÃO - ANEXOS  -->
+            <div class="container container-anexos" style="margin-top: 3em;">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center; margin-bottom: 2em;">
+                        <h2>ANEXOS</h2>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h2>ANEXO I - Formulário de solicitação de componentes e sensores</h2>
+                        <button class="btn btn-primary btn-lg" style="margin-top: 2em;" onclick="window.location.href='/pdfs/ANEXO I - Formulário de solicitação de componentes e sensores.pdf'">
+                            <i class="fas fa-download"></i> Baixar o documento
+                        </button>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h2>ANEXO II - RELATÓRIO FINAL 2º DESAFIO MAKER DO IFSULDEMINAS - 2024</h2>
+                        <button class="btn btn-primary btn-lg" style="margin-top: 2em;" onclick="window.location.href='/pdfs/ANEXO II - RELATÓRIO FINAL 2º DESAFIO MAKER DO IFSULDEMINAS - 2024.pdf'">
+                            <i class="fas fa-download"></i> Baixar o documento
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
+        
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>

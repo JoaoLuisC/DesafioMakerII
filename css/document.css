@@ -1,0 +1,47 @@
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 100%;
+    max-width: 10em;
+}
+
+li{
+    font-size: 1.2em;
+    list-style-type:decimal;
+    list-style-type:decimal;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+/*OBJETIVOS*/
+.container-objetivos div p{
+    text-align: justify;
+}
+
+.decorated-list{
+    list-style:disc;
+    font-size:1em;
+}
+.decorated-ul{
+    text-align: justify;
+}
+
+/*CRONOGRAMA*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
