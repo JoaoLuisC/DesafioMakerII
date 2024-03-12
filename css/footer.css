@@ -1,0 +1,15 @@
+.footer {
+    display: block;
+    padding: 2% 5%;
+    background-color: #0a6085;
+    color: #e9e5e5;
+}
+
+.footer h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.footer p {
+    margin: 0;
+}

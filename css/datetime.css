@@ -6,7 +6,8 @@
 }
 
 .datetime h2,
-.datetime h4 {
+.datetime h4,
+.datetime p {
     margin: 0;
 }
 
@@ -21,6 +22,10 @@
 }
 
 .datetime h4 {
+    margin: 2% 0;
+}
+
+.datetime p {
     margin: 2% 0;
 }
 
