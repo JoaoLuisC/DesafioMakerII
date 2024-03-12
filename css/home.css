@@ -1,0 +1,97 @@
+.home {
+    display: block;
+    margin-top: 10%;
+}
+
+.home h1,
+.home h4,
+.home h5,
+.home p {
+    margin: 0;
+}
+
+/* Página Inicial */
+.home-title {
+    text-align: center;
+}
+
+.home-title h1 {
+    margin-bottom: 5px;
+}
+
+.home-text i {
+    margin-top: 35px;
+    font-size: 32px;
+}
+
+.home-text p {
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.home-text p::first-letter {
+    margin-left: 20px;
+}
+
+.home-img {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.home-img img {
+    display: block;
+    margin: auto;
+}
+
+/* Requisitos dos Usuários  */
+
+.home-ur-text {
+    justify-content: space-around;
+}
+
+.ur-box {
+    background-color: white;
+    border: 1px solid black;
+    height: 220px;
+    text-align: center;
+}
+
+.ur-box i {
+    background-color: white;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 40px;
+    margin-top: -100%;
+    width: 72px;
+    padding: 10px;
+}
+
+.ur-box h4 {
+    margin: 10px 0;
+}
+
+@media (max-width:991px) {
+
+    .home-img img {
+        position: absolute;
+        opacity: 0.2;
+        top: 50%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .home-ur-text {
+        row-gap: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ur-box {
+        width: 280px;
+    }
+}
