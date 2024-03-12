@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/userRequirements .css">
     <link rel="stylesheet" type="text/css" href="css/rewards.css">
+    <link rel="stylesheet" type="text/css" href="css/datetime.css">
+
     <title>Desafio Maker II</title>
 
 
@@ -125,7 +127,7 @@
             </div>
         </section>
 
-        <section class="rewards mt-5">
+        <section class="rewards">
 
             <div class="row justify-content-around">
 
@@ -156,12 +158,42 @@
 
             </div>
         </section>
+
+        <section class="datetime">
+
+            <header>
+                <h2>Estamos quase lá</h2>
+                <h4 id="event-date">de XX à XX de Mês</h4>
+            </header>
+
+            <div class="datetime-text">
+                <div class="row justify-content-center container-fluid">
+                    <div class=" datetime-box col-md-3">
+                        <span id="days">00</span>
+                        <p>Dias</p>
+                    </div>
+                    <div class="datetime-box col-md-3">
+                        <span id="hours">00</span>
+                        <p>Horas</p>
+                    </div>
+                    <div class="datetime-box col-md-3">
+                        <span id="minutes">00</span>
+                        <p>Minutos</p>
+                    </div>
+                    <div class="datetime-box col-md-3">
+                        <span id="seconds">00</span>
+                        <p>Segundos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
 
     </footer>
 
+    <script src="script/datetime.js"></script>
 </body>
 
 </html>
