@@ -1,3 +1,4 @@
+/*ICONES*/
 .icon-text-container {
     display: flex;
     align-items: center;
@@ -5,28 +6,44 @@
 }
 
 .icon {
-    width: 80%;
+    width: 70%;
     max-width: 10em;
 }
 
-li{
+/*CONTAINERS*/
+.container-li li {
     font-size: 1.2em;
-    list-style-type:decimal;
-    list-style-type:decimal;
+    list-style-type: decimal;
+    list-style-type: decimal;
     padding-bottom: 1em;
     text-align: justify;
 }
 
+.container {
+    margin-top: 3em;
+}
+
+/*TITULO*/
+.container-titulo {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
 /*OBJETIVOS*/
-.container-objetivos div p{
+.container-objetivos div p {
     text-align: justify;
 }
 
-.decorated-list{
-    list-style:disc;
-    font-size:1em;
+.objetivos-texto {
+    font-size: 1.2em;
 }
-.decorated-ul{
+
+.decorated-list {
+    list-style: disc;
+    font-size: 1em;
+}
+
+.decorated-ul {
     text-align: justify;
 }
 
@@ -34,14 +51,25 @@ li{
 table {
     width: 100%;
     border-collapse: collapse;
-  }
+}
 
-  th, td {
+th,
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
 
-  th {
+th {
     background-color: #f2f2f2;
-  }
+}
+
+/*ANEXOS*/
+.container-anexos div button {
+    margin: 2em 0 2em;
+}
+
+.anexos-titulo {
+    text-align: center;
+    margin-bottom: 2em;
+}

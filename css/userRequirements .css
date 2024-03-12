@@ -1,0 +1,51 @@
+.user-requirements {
+    background: linear-gradient(to bottom, #AAAA91, #848478);
+}
+
+.ur-text .row {
+    padding: 2% 0 4.5% 0;
+    margin: 0;
+}
+
+.user-requirements header h4 {
+    padding: 2% 5%;
+    color: white;
+    margin: 0;
+}
+
+.ur-box {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.ur-box i {
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 40px;
+    margin-top: -100%;
+    width: 72px;
+    padding: 10px;
+}
+
+.ur-box h4 {
+    margin: 10px 0;
+}
+
+@media (max-width:991px) {
+
+    .ur-text .row {
+        padding: 30px 0 0 0;
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ur-box {
+        width: 280px;
+    }
+}

@@ -1,0 +1,28 @@
+.rewards h4,
+.subscribe-text h4,
+.rewards p,
+.subscribe-text p {
+    margin: 10px 0;
+}
+
+.rewards-text,
+.subscribe-text {
+    text-align: justify;
+}
+
+.rewards-text h4,
+.subscribe-text h4 {
+    text-align: justify;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.rewards-text i {
+    font-size: 32px;
+    color: #aca113;
+}
+
+.subscribe-text i {
+    font-size: 32px;
+    color: rgb(138, 26, 6);
+}

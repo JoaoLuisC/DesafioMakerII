@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-shadow: none;
-}
-
-body{
-    margin: 0 5%;
+    box-shadow: none;
 }
 
 header {
     margin: 0;
-    padding: 0;
+    padding: 0;
 }
 
-.header-nav{
-    padding-bottom: 10em;
+header ul li {
+    list-style: none;
 }
+
+.home,
+.userRequirement,
+.rewards {
+    padding: 0 5%;
+}
+
+
