@@ -1,0 +1,56 @@
+.event {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, #222, #686666, #1f1f1f);
+    /* background-image: url('../images/fundo-estrelas.jpg'); */
+    background-attachment: fixed;
+}
+
+.event h4,
+.event h5,
+.event a {
+    margin: 0;
+    color: white;
+}
+
+.event img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
+.event h4,
+.event span,
+.event a {
+    margin: 1% 0;
+}
+
+.event span {
+    display: block;
+    width: 150px;
+    margin: 1% auto;
+    padding: 15px;
+    background-color: rgb(127, 228, 143);
+    box-shadow: 1px 1px 15px darkgreen;
+    border-radius: 15px;
+    transition: .5s ease-out;
+}
+
+.event span:hover {
+    background-color: rgb(28, 211, 58);
+    box-shadow: 1px 1px 15px rgb(110, 209, 110);
+}
+
+.event span:hover a {
+    color: white;
+}
+
+.event span a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    transition: .5 ease-out;
+}

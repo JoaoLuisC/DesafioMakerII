@@ -1,6 +1,10 @@
 .home {
     display: block;
+<<<<<<< Updated upstream
     margin-top: 10%;
+=======
+    padding: 5%;
+>>>>>>> Stashed changes
 }
 
 .home h1,

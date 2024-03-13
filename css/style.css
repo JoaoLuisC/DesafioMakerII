@@ -14,6 +14,11 @@ header {
     padding: 0;
 }
 
+<<<<<<< Updated upstream
 .header-nav{
     padding-bottom: 10em;
+=======
+header ul li {
+    list-style: none;
+>>>>>>> Stashed changes
 }
