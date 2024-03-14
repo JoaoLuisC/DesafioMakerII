@@ -1,7 +1,7 @@
 // Função para atualizar o contador
 function updateCountdown() {
     // Data do evento final (ano, mês (0-11), dia, hora, minuto, segundo)
-    const eventDate = new Date('2024-07-15T00:00:00');
+    const eventDate = new Date('2024-05-15T07:00:00');
 
     // Data atual
     const now = new Date();

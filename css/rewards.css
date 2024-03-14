@@ -1,33 +1,71 @@
 .rewards {
-    padding: 5%;
-    background-color: white;
+    padding: 2% 5%;
 }
 
-.rewards h4,
-.subscribe-text h4,
-.rewards p,
-.subscribe-text p {
-    margin: 10px 0;
+.rewards header h4 {
+    margin: 0;
+    padding-bottom: 2%;
 }
 
-.rewards-text,
-.subscribe-text {
-    text-align: justify;
+.rewards h5,
+.rewards p {
+    margin: 15px 0;
 }
 
-.rewards-text h4,
-.subscribe-text h4 {
-    text-align: justify;
-    padding-bottom: 5px;
-    border-bottom: 1px solid black;
+.rewards-text {
+    text-align: center;
+    padding: 2% 0 4.5% 0;
 }
 
-.rewards-text i {
+.rewards header i {
     font-size: 32px;
-    color: #aca113;
+    color: #f1e20a;
 }
 
-.subscribe-text i {
-    font-size: 32px;
-    color: rgb(138, 26, 6);
+.rewards-box h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rewards-box i {
+    font-size: 28px;
+}
+
+.rewards-text .row div:nth-child(1) i {
+    color: rgb(235, 149, 36);
+}
+
+.rewards-text .row div:nth-child(2) i {
+    color: gold;
+}
+
+.rewards-text .row div:nth-child(3) i {
+    color: #9fcbf0;
+}
+
+.rewards span a {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto 2% auto;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #292929;
+    border-radius: 20px;
+    transition: .5s ease-out;
+}
+
+.rewards span a:hover {
+    color: white;
+    background-color: #757575;
+}
+
+@media (max-width: 992px) {
+    .rewards-text .row {
+        row-gap: 30px;
+    }
 }
