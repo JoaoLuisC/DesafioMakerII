@@ -6,6 +6,7 @@
     background: linear-gradient(to bottom, #222, #686666, #1f1f1f);
     background-image: url('../images/fundo-estrelas.jpg');
     background-attachment: fixed;
+    background-repeat: no-repeat;
     padding: 14vh 0;
 }
 

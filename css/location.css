@@ -1,5 +1,6 @@
 .location {
     padding: 2% 5% 8.5% 5%;
+    background-color: white;
 }
 
 .location h4,
@@ -25,4 +26,5 @@
     margin: auto;
     width: 100%;
     height: 300px;
+    box-shadow: 1px 1px 5px #0a1427;
 }

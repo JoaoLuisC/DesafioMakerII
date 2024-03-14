@@ -1,7 +1,9 @@
 .datetime {
     padding: 2% 5%;
     text-align: center;
-    background: linear-gradient(to bottom, #2b2a2a, #0f0c0c);
+    background-image: url('../images/fundo-estrelas.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
 }
 
