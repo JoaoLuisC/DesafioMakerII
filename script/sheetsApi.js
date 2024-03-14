@@ -1,33 +1,61 @@
 function loadGoogleSheetData() {
     // ID da planilha do Google Sheets
-    const spreadsheetId = '1MsFl6hMKJusPb8m9rXBzmZ5iRVkLNmKg3JsOQPh4Kw4';
+    const spreadsheetId = '1UkrKKMGTu2AZw8_2Oz5AEbu2syyS9LoNb3XX_CaUu7Q';
     // ID da planilha dentro do documento (geralmente 0 para a primeira planilha)
     const sheetId = 0;
 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
-        range: 'ComponentesEletronicos' // Substitua 'ComponentesEletronicos' pelo nome da aba e ajuste o intervalo conforme necessário
+        range: 'ComponentesEletronicos' // Substitua pelo nome da aba que você deseja ler
     }).then(function (response) {
         const data = response.result.values;
-        const tableBody = document.querySelector('#actions-table tbody');
+        const tableBody = document.querySelector('#itens-table tbody');
 
         // Limpe qualquer conteúdo existente na tabela
         tableBody.innerHTML = '';
 
         // Preencha a tabela com os dados da planilha
         data.forEach(function (row) {
-            const descricao = row[0] || ''; // Coluna A
-            const quantidade = row[1] || ''; // Coluna B
+            const rowData = row.map(item => item || ''); // Lida com valores nulos ou indefinidos
 
             const tableRow = document.createElement('tr');
-            const cellDescricao = document.createElement('td');
-            const cellQuantidade = document.createElement('td');
+            rowData.forEach(function (cellData) {
+                const cell = document.createElement('td');
+                cell.textContent = cellData;
+                tableRow.appendChild(cell);
+            });
 
-            cellDescricao.textContent = descricao;
-            cellQuantidade.textContent = quantidade;
+            tableBody.appendChild(tableRow);
+        });
+    });
+}
 
-            tableRow.appendChild(cellDescricao);
-            tableRow.appendChild(cellQuantidade);
+function loadGoogleSheetData2() {
+    // ID da planilha do Google Sheets
+    const spreadsheetId = '1UkrKKMGTu2AZw8_2Oz5AEbu2syyS9LoNb3XX_CaUu7Q';
+    // ID da planilha dentro do documento (geralmente 0 para a primeira planilha)
+    const sheetId = 1;
+
+    gapi.client.sheets.spreadsheets.values.get({
+        spreadsheetId: spreadsheetId,
+        range: 'SensoresAtuadores' // Substitua pelo nome da aba que você deseja ler
+    }).then(function (response) {
+        const data = response.result.values;
+        const tableBody = document.querySelector('#itens-table2 tbody');
+
+        // Limpe qualquer conteúdo existente na tabela
+        tableBody.innerHTML = '';
+
+        // Preencha a tabela com os dados da planilha
+        data.forEach(function (row) {
+            const rowData = row.map(item => item || ''); // Lida com valores nulos ou indefinidos
+
+            const tableRow = document.createElement('tr');
+            rowData.forEach(function (cellData) {
+                const cell = document.createElement('td');
+                cell.textContent = cellData;
+                tableRow.appendChild(cell);
+            });
 
             tableBody.appendChild(tableRow);
         });
@@ -38,10 +66,11 @@ function loadGoogleSheetData() {
 // Função para inicializar a API do Google Sheets
 function initGoogleSheetsApi() {
     gapi.client.init({
-        apiKey: 'AIzaSyA258oI7s4zSD-dac2OqwcImJZWRsQKtwA',
+        apiKey: 'AIzaSyAIzej-oRGxMYU8XjhQKgDQAo0gi1IN_5I',
         discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
     }).then(function () {
         loadGoogleSheetData();
+        loadGoogleSheetData2();
     });
 }
 
