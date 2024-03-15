@@ -1,7 +1,6 @@
 .home {
     display: block;
     padding: 5%;
-    background-color: white;
 }
 
 .home h1,
@@ -49,7 +48,7 @@
 
 
 
-@media (max-width:991px) {
+@media (max-width:992px) {
 
     .home-img img {
         display: none;

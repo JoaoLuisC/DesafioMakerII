@@ -3,11 +3,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #222, #686666, #1f1f1f);
     background-image: url('../images/fundo-estrelas.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding: 14vh 0;
+    padding: 15vh 0;
 }
 
 .event h4,
@@ -30,6 +29,8 @@
     margin: 1% 0;
 }
 
+/* 
+BOTÃO INSCREVA-SE
 .event span {
     display: block;
     width: 150px;
@@ -55,4 +56,5 @@
     text-decoration: none;
     color: black;
     transition: .5 ease-out;
-}
+} 
+*/
