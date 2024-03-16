@@ -31,29 +31,7 @@
 
     <!--NAV BAR DA LANDING PAGE-->
     <header class="header-nav" id="header-inicio">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top"
-            style="background: linear-gradient(to bottom, #172031, #0a1427);">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">II Desafio Maker</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#header-inicio">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="documents.html">Informações</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="itens.html">Itens</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div id="header-container"></div>
     </header>
 
     <main>
@@ -75,6 +53,7 @@
                     <header class="home-title">
                         <h1>II Desafio Maker</h1>
                         <h5>IFSULDEMINAS</h5>
+                        <p style="color: red;"><a href="teste.html">ai calica puxa e solta trava e respira</a></p>
                     </header>
                     <i class="fa-solid fa-quote-left"></i>
                     <p>
@@ -154,6 +133,7 @@
                     <div class="rewards-box col-s-12 col-md-5 col-lg-3">
                         <h5><i class="fa-solid fa-certificate"></i> Certificados</h5>
                         <p>Todos os integrantes de todas as equipes irão ganhar certificado.</p>
+
                     </div>
                 </div>
             </div>
@@ -203,11 +183,7 @@
     </main>
 
     <footer class="footer">
-        <h5>IFSULDEMINAS - Campus Machado</h5>
-        <p>© 2024. Todos os Direitos Reservados. | Desenvolvido por Amigos do GPT</p>
-        <a
-            href="https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-espaco-sideral_14230942.htm#fromView=search&page=1&position=12&uuid=0df0b862-18fd-4381-82b4-6dd191f401de">Imagem
-            de storyset no Freepik</a>
+        <div id="footer-container"></div>
 
     </footer>
 
@@ -219,7 +195,8 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
-
+    <script src="script/navbar.js"></script>
+    <script src="script/footer.js"></script>
 </body>
 
 </html>
