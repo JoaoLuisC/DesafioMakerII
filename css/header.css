@@ -15,6 +15,20 @@
     padding: 0;
 }
 
-.header-nav {
+.navbar {
+    background-color: transparent;
+    transition: .8s;
+}
+
+.navbar-hidden {
+    visibility: hidden;
+    transition: .5s;
+}
+
+.header-scroll {
     background-color: #082253;
+}
+
+.header-scroll-visible {
+    visibility: visible;
 }
