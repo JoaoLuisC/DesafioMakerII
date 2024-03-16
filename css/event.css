@@ -6,7 +6,8 @@
     background-image: url('../images/fundo-estrelas.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding: 15vh 0;
+    height: 100vh;
+    background-size: cover;
 }
 
 .event h4,

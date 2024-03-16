@@ -21,69 +21,8 @@
 
     <!--NAV BAR DA LANDING PAGE-->
     <header class="header-nav" id="header-inicio">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top"
-            style="background: linear-gradient(to bottom, #172031, #0a1427);">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">II Desafio Maker</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#header-inicio">Informações</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Documentação
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#section-objetivos">1. Objetivos</a></li>
-                                <li><a class="dropdown-item" href="#section-requisitos">2. Requisitos para
-                                        Participação</a></li>
-                                <li><a class="dropdown-item" href="#section-inscricoes">3. Inscrições</a></li>
-                                <li><a class="dropdown-item" href="#section-selecao">4. Seleção</a></li>
-                                <li><a class="dropdown-item" href="#section-obrigacoesIF">5. Obrigações do
-                                        IFSULDEMINAS</a></li>
-                                <li><a class="dropdown-item" href="#section-obrigacoesParticipantes">6. Obrigações do
-                                        Participante</a></li>
-                                <li><a class="dropdown-item" href="#section-cronograma">7. Cronograma do Evento</a></li>
-                                <li><a class="dropdown-item" href="#section-execucao">8. Execução dos Projetos</a></li>
-                                <li><a class="dropdown-item" href="#section-equipamentos">9. Equipamentos
-                                        Disponibilizados</a></li>
-                                <li><a class="dropdown-item" href="#section-politica">10. Politica de Uso de Rede</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#section-apresentacao">11. Apresentação e
-                                        Resultado</a></li>
-                                <li><a class="dropdown-item" href="#section-recurso">12. Recurso</a></li>
-                                <li><a class="dropdown-item" href="#section-premiacao">13. Premiação e Certificação</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#section-divulgacao">14. Divulgação</a></li>
-                                <li><a class="dropdown-item" href="#section-direitos">15. Direitos de Propiedade
-                                        Intelectual</a></li>
-                                <li><a class="dropdown-item" href="#section-publicacao">16. Publicação dos Projetos</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#section-disposicoes">17. Disposições Finais</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#section-anexos">ANEXOS </a></li>
-                            </ul>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="itens.html">Itens</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div id="header-container"></div>
     </header>
-
     <main>
         <!--SECTION DOCUMENTOS QUE IRA CONTER TODA A DOCUMENTAÇAO EM GRID-->
         <section class="section-documents" id="section-title">
@@ -523,6 +462,7 @@
                     </div>
                 </div>
             </div>
+            <span  style="padding: 1%;" id="span-premiacao"></span>
 
             <!--DIV DA DOCUMENTAÇÃO -  PREMIAÇÃO E CERTIFICAÇÃO  -->
             <div class="container container-premiacao container-li" id="section-premiacao">
@@ -694,9 +634,7 @@
     </main>
 
     <footer class="footer">
-        <h5>IFSULDEMINAS - Campus Machado</h5>
-        <p>© 2024. Todos os Direitos Reservados. | Desenvolvido por Amigos do GPT</p>
-    </footer>
+        <div id="footer-container"></div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -705,7 +643,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
-
+<script src="script/navbar.js"></script>
+<script src="script/footer.js"></script>
+<script src="script/actions.js"></script>
 </body>
 
 </html>
