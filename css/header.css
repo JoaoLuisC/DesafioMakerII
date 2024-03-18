@@ -15,20 +15,24 @@
     padding: 0;
 }
 
-.navbar {
+.navbar-index>.navbar {
     background-color: transparent;
+}
+
+.navbar {
+    background-color: #082253;
     transition: .8s;
 }
 
-.navbar-hidden {
+.navbar-index>.navbar-hidden {
     visibility: hidden;
     transition: .5s;
 }
 
-.header-scroll {
+.navbar-index>.header-scroll {
     background-color: #082253;
 }
 
-.header-scroll-visible {
+.navbar-index>.header-scroll-visible {
     visibility: visible;
 }
