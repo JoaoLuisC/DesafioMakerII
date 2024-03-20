@@ -1,0 +1,41 @@
+/* Estilos para a seção de contatos */
+.contact {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.contact h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-description {
+    font-size: 1.6em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.2em;
+}
+
+.contact-info a:hover {
+    color: #0056b3;
+}
+
+/* Estilos específicos para ícones */
+.contact-info i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+
