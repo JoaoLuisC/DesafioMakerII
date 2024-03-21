@@ -1,0 +1,11 @@
+/*ICONES*/
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 70%;
+    max-width: 10em;
+}

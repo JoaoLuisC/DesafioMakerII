@@ -1,0 +1,17 @@
+/*OBJETIVOS*/
+.container-objetivos div p {
+    text-align: justify;
+}
+
+.objetivos-texto {
+    font-size: 1.2em;
+}
+
+.decorated-list {
+    list-style: disc;
+    font-size: 1em;
+}
+
+.decorated-ul {
+    text-align: justify;
+}

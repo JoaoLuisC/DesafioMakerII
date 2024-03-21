@@ -1,0 +1,9 @@
+/*TITULO*/
+.container-titulo {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.container-titulo h1{
+    margin-top: 14vh;
+}
