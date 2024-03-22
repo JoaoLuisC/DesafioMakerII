@@ -1,7 +1,6 @@
 .user-requirements {
     padding: 2% 5%;
-    background: rgb(8,34,83);
-    background: linear-gradient(146deg, rgba(8,34,83,1) 22%, rgba(66,107,184,1) 42%);
+    background: linear-gradient(to bottom, #082253, #426bb8);
     /* background-image: url('../images/fundo-estrelas.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat; */
@@ -38,6 +37,18 @@
 
 .ur-box h4 {
     margin: 10px 0;
+}
+
+.ur-text .row div:nth-child(1) i {
+    color: #000;
+}
+
+.ur-text .row div:nth-child(2) i {
+    color: #000;
+}
+
+.ur-text .row div:nth-child(3) i {
+    color: #000;
 }
 
 @media (max-width:992px) {

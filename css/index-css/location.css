@@ -2,12 +2,12 @@
     padding: 2% 5% 8.5% 5%;
 }
 
-.location h4,
-.location p {
+.location h2,
+.location h5 {
     margin: 0;
 }
 
-.location p {
+.location h5 {
     margin: 2% 0;
 }
 
