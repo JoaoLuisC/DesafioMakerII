@@ -36,3 +36,8 @@
 .navbar-index>.header-scroll-visible {
     visibility: visible;
 }
+
+nav ul{
+    align-items: center;
+    text-align: center;
+}

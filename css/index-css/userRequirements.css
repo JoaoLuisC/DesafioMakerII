@@ -1,13 +1,15 @@
 .user-requirements {
     padding: 2% 5%;
-    background: linear-gradient(to bottom, #082253, #426bb8);
-    /* background-image: url('../images/fundo-estrelas.jpg');
+    text-align: center;
+    background-image: url('/images/wepik-export-20240318203719SBok.jpeg');
     background-attachment: fixed;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .ur-text {
     padding: 2% 0 4.5% 0;
+    color: black;
     margin: 0;
 }
 
