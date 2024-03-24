@@ -1,63 +1,79 @@
 .event {
     display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-image: url('/images/wepik-export-20240318203719SBok.jpeg');
+    justify-content: left;
+    height: 100vh;
+}
+
+.event .img-fundo {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    height: 100vh;
+    opacity: 0.8;
+    background-image: url('/images/fundo-maker.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
     background-size: cover;
 }
 
-.event h4,
-.event h5,
-.event a {
+.event-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffb301c5;
+    padding: 0 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.event-text h4,
+.event-text h5,
+.event-text a {
     margin: 0;
-    color: white;
+    color: #fff;
 }
 
 .event img {
     display: block;
     margin: auto;
     width: 400px;
-    height: auto;
+    object-fit: cover;
 }
 
-.event h4,
-.event span,
-.event a {
-    margin: 1% 0;
+.event-text h4,
+.event-text span,
+.event-text a {
+    margin: 5% 0;
 }
-
-
 
 /* 
 BOTÃO INSCREVA-SE
-.event span {
+.event-text span {
     display: block;
     width: 150px;
-    margin: 1% auto;
+    margin: 10% auto 5% auto;
     padding: 15px;
-    background-color: rgb(127, 228, 143);
-    box-shadow: 1px 1px 15px darkgreen;
+    background-color: #857f77;
+    color: #fff;
     border-radius: 15px;
     transition: .5s ease-out;
 }
 
 .event span:hover {
-    background-color: rgb(28, 211, 58);
-    box-shadow: 1px 1px 15px rgb(110, 209, 110);
-}
-
-.event span:hover a {
-    color: white;
+    background-color: #222;
 }
 
 .event span a {
     margin: auto;
     text-decoration: none;
-    color: black;
-    transition: .5 ease-out;
-} 
-*/
+    color: white;
+    transition: .3 ease-out;
+} */
+
+@media (max-width:992px) {
+    .event-text {
+        width: 100%;
+    }
+}

@@ -1,47 +1,58 @@
 .datetime {
-    padding: 2% 5%;
+    padding: 2% 5% 8.5% 5%;
     text-align: center;
-    background-image: url('/images/wepik-export-20240318203719SBok.jpeg');
-    background-attachment: fixed;
+    background-color: #444;
+    /* background-image: url('/images/');
     background-repeat: no-repeat;
-    color: white;
+    background-size: cover;
+    background-attachment: fixed; */
 }
 
 .datetime h2,
 .datetime h4,
+.datetime h5,
 .datetime p {
     margin: 0;
 }
 
+.datetime header {
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.datetime header h2 {
+    padding: 1% 0;
+}
+
+.datetime header h2,
+.datetime header h4 {
+    color: #fff;
+}
+
 .datetime-text {
-    padding: 2% 0 7.5% 0;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
-.datetime h2 {
-    margin: 1% 0;
-}
-
-.datetime h4 {
-    margin: 2% 0;
-}
-
-.datetime p {
-    margin: 2% 0;
+.datetime-text .row {
+    width: 100%;
 }
 
 .datetime-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
     text-align: center;
-    background-color: transparent;
+    background-color: #222;
     border: 1px solid white;
 }
 
-.datetime-box span {
+.datetime-box div h5 {
     font-size: 64px;
-    font-weight: bold;
 }
 
-.datetime-box p {
-    font-size: 24px;
+.datetime-box div p {
+    font-size: 18px;
 }

@@ -1,57 +1,59 @@
 .user-requirements {
     padding: 2% 5%;
-    background: linear-gradient(to bottom, #082253, #426bb8);
-    /* background-image: url('../images/fundo-estrelas.jpg');
+    position: relative;
+    background-color: #222;
+    /* background-image: url('/images/fundo-maker5.jpg');
     background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat; */
+
+}
+
+.user-requirements header {
+    padding-bottom: 4%;
+}
+
+.user-requirements header h2 {
+    color: #ffffffe7;
+    margin: 0;
+    padding: 1% 0;
 }
 
 .ur-text {
-    padding: 2% 0 4.5% 0;
-    margin: 0;
-}
-
-.user-requirements header h4 {
-    padding-bottom: 2%;
-    color: white;
+    padding: 2% 0 6.5% 0;
     margin: 0;
 }
 
 .ur-box {
-    background-color: white;
-    border: 1px solid black;
-    width: 300px;
-    height: auto;
+    background-color: #ffb301dc;
+    border-radius: 15px;
+    color: #fff;
     text-align: center;
 }
 
 .ur-box i {
-    background-color: white;
-    border: 1px solid black;
-    align-items: center;
-    font-size: 40px;
-    margin-top: -100%;
-    width: 72px;
+    background-color: #fff;
+    color: #222;
     padding: 10px;
+    font-size: 40px;
+    width: 80px;
+    border-radius: 15px;
+    margin-top: -100%;
 }
 
 .ur-box h4 {
     margin: 10px 0;
 }
 
-.ur-text .row div:nth-child(1) i {
-    color: #000;
-}
+@media (max-width:991px) {
 
-.ur-text .row div:nth-child(2) i {
-    color: #000;
-}
+    .user-requirements header {
+        padding-bottom: 5%;
+    }
 
-.ur-text .row div:nth-child(3) i {
-    color: #000;
-}
-
-@media (max-width:992px) {
+    .ur-text {
+        padding-bottom: 7.5%;
+    }
 
     .ur-text .row {
         row-gap: 50px;
@@ -62,21 +64,12 @@
     }
 }
 
-@media (max-width: 768px) {
-
+@media (max-width:576px) {
     .user-requirements header {
-        padding-bottom: 2%;
+        padding-bottom: 10%;
     }
 
-    .ur-box {
-        width: 280px;
+    .ur-text {
+        padding-bottom: 12.5%;
     }
-}
-
-@media (max-width: 576px) {
-
-    .user-requirements header {
-        padding-bottom: 5%;
-    }
-
 }

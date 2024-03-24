@@ -7,18 +7,18 @@
     margin: 0;
 }
 
-.location h5 {
-    margin: 2% 0;
+.location header {
+    padding-bottom: 4%;
 }
 
-.location header {
-    padding: 2% 0;
-    text-align: center;
+.location header h2 {
+    padding: 1% 0;
 }
 
 .location header i {
     font-size: 32px;
 }
+
 
 .location iframe {
     display: block;
