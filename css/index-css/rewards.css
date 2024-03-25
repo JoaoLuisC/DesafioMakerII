@@ -1,48 +1,51 @@
 .rewards {
     padding: 2% 5%;
+    background-color: #fcfcfc;
 }
 
-.rewards header h4 {
+.rewards header {
+    padding-bottom: 4%;
+}
+
+.rewards header h2 {
+    color: #222;
     margin: 0;
-    padding-bottom: 2%;
+    padding: 1% 0;
 }
 
 .rewards h5,
 .rewards p {
-    margin: 15px 0;
+    margin: 0;
 }
 
 .rewards-text {
-    text-align: center;
-    padding: 2% 0 4.5% 0;
+    text-align: justify;
+    padding: 2% 0 6.5% 0;
 }
 
-.rewards header i {
-    font-size: 32px;
-    color: #f1e20a;
+.rewards-box {
+    background-color: #222222fa;
+    color: #ffffffe7;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: auto;
 }
 
 .rewards-box h5 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+
+.rewards-box p {
+    margin: 30px 0;
 }
 
 .rewards-box i {
-    font-size: 28px;
-}
-
-.rewards-text .row div:nth-child(1) i {
-    color: rgb(235, 149, 36);
-}
-
-.rewards-text .row div:nth-child(2) i {
-    color: gold;
-}
-
-.rewards-text .row div:nth-child(3) i {
-    color: #9fcbf0;
+    font-size: 32px;
 }
 
 .rewards span a {
@@ -58,7 +61,6 @@
     border-radius: 20px;
     transition: .5s ease-out;
 }
-
 .rewards span a:hover {
     color: white;
     background-color: #757575;
@@ -66,6 +68,6 @@
 
 @media (max-width: 992px) {
     .rewards-text .row {
-        row-gap: 30px;
+        row-gap: 50px;
     }
 }

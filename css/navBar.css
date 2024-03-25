@@ -20,7 +20,7 @@
 }
 
 .navbar {
-    background-color: #082253;
+    background-color: #666;
     transition: .8s;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .navbar-index>.header-scroll {
-    background-color: #082253;
+    background-color: #666;
 }
 
 .navbar-index>.header-scroll-visible {

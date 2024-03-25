@@ -1,6 +1,7 @@
 .home {
     display: block;
-    padding: 5%;
+    padding: 2% 5% 6.5% 5%;
+    position: relative;
 }
 
 .home h1,
@@ -9,26 +10,28 @@
 .home p {
     margin: 0;
 }
-
 /* Página Inicial */
 .home-title {
     text-align: center;
 }
-
-
 .home-title h1 {
     margin-bottom: 5px;
 }
 
+.home-text {
+    display: grid;
+    place-self: center;
+    padding: 2% 0;
+    text-align: justify;
+}
+
 .home-text i {
-    margin-top: 35px;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .home-text p {
     margin-top: 20px;
-    font-size: 1.4em;
-    text-align: justify;
+    font-size: 19px;
 }
 
 .home-text p::first-letter {
@@ -36,9 +39,10 @@
 }
 
 .home-img {
+    padding: 2% 0;
     display: flex;
     align-items: center;
-    padding: 0px;
+
 }
 
 .home-img img {
@@ -46,12 +50,14 @@
     margin: auto;
 }
 
-
-
 @media (max-width:992px) {
-
     .home-img img {
-        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.09;
     }
 
     .home-ur-text {
