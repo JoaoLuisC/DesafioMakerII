@@ -1,12 +1,12 @@
 .contacts {
     padding: 2% 5%;
-    background-color: #e0e0e0;
+    background-color: #222;
     text-align: center;
 }
 
 .contacts header {
     padding-bottom: 4%;
-    color: #222;
+    color: #fff;
     text-align: left;
 }
 
@@ -18,31 +18,41 @@
     padding: 2% 0 8.5% 0;
 }
 
+.contacts-group {
+    color: white;
+}
+
 .contacts-box {
-    display: grid;
-    place-items: center;
-    position: relative;
-    height: 180px;
-    background-color: #f08409;
+    place-content: center;
+    height: auto;
+    background-color: var(--green);
     border-radius: 15px;
     cursor: pointer;
-    overflow: hidden;
+    opacity: 0.9;
     margin: 0 20px;
+}
+
+.contacts-box:hover {
+    opacity: 1;
+    background-color: var(--dark-green);
+}
+
+.contacts-box h4 {
+    color: #fff;
+    margin: 10px 0;
 }
 
 .contacts-box i {
     color: #ffffff;
-    font-size: 80px;
-    position: relative;
-    z-index: 1;
+    font-size: 72px;
+    margin-top: 10px;
 }
 
-.contacts-box a:hover {
-    color: #372dbe;
+.contacts-box:hover {
     transition: .5s ease-out;
 }
 
-@media (min-width:992px) {
+/* @media (min-width:992px) {
     .contacts-box::before {
         position: absolute;
         content: '';
@@ -73,7 +83,7 @@
         background-color: #f08409;
         border-radius: 15px;
     }
-}
+} */
 
 @media (max-width:768px) {
     .contacts .row {

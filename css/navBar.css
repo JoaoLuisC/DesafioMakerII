@@ -20,7 +20,8 @@
 }
 
 .navbar {
-    background-color: #666;
+    /* background-color: var(--dark-green); */
+    background: linear-gradient(ellipse at center, var(--green), var(--dark-green));
     transition: .8s;
 }
 
@@ -30,14 +31,16 @@
 }
 
 .navbar-index>.header-scroll {
-    background-color: #666;
+    /* background-color: var(--dark-green); */
+    background: radial-gradient(ellipse at center, #17882c 1%, #00510f 100%);
+
 }
 
 .navbar-index>.header-scroll-visible {
     visibility: visible;
 }
 
-nav ul{
+nav ul {
     align-items: center;
     text-align: center;
 }

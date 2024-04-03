@@ -25,7 +25,8 @@
 }
 
 .ur-box {
-    background-color: #ffb301dc;
+    /* background-color: #ffb301dc; */
+    background-color: var(--green);
     border-radius: 15px;
     color: #fff;
     text-align: center;
@@ -58,6 +59,7 @@
     .ur-text .row {
         row-gap: 50px;
     }
+
     .ur-box {
         height: 175px;
     }

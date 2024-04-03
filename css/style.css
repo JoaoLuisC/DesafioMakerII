@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+
+:root {
+    --blue: #3268ba;
+    --dark-blue: #092855;
+    --green: #17882c;
+    --green-opacity: #17882cd0;
+    --dark-green: #00510f;
+}
+
 body {
     overflow-x: hidden;
 }
