@@ -16,6 +16,7 @@
 
 .location header i {
     font-size: 32px;
+    color: var(--green);
 }
 
 

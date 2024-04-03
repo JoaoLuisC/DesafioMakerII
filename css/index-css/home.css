@@ -10,10 +10,13 @@
 .home p {
     margin: 0;
 }
+
 /* Página Inicial */
 .home-title {
     text-align: center;
+    padding-top: 2%;
 }
+
 .home-title h1 {
     margin-bottom: 5px;
 }
@@ -27,6 +30,7 @@
 
 .home-text i {
     font-size: 48px;
+    color: var(--green);
 }
 
 .home-text p {

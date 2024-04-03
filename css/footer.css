@@ -1,8 +1,9 @@
 .footer {
     display: block;
+    margin-top: 15%;
     padding: 2% 5%;
-    background-color: #666;
-    color: #e9e5e5;
+    background-color: var(--green);
+    color: #fff;
 }
 
 .footer h5 {
@@ -10,23 +11,13 @@
     font-weight: normal;
 }
 
-.footer-title{
+.footer-title {
     align-items: center;
     padding-right: 0;
-    border-right: solid black 0.2em;
+    border-right: solid var(--dark-green) 0.2em;
 }
 
 .footer p {
     margin: 0;
     font-size: 1.2em;
 }
-
-.footer-text a{
-    text-decoration: none;
-    font-size: 1.2em;
-    
-}
-.footer-text a:hover{
-    color: #76b4ee; 
-}
-
