@@ -1,6 +1,9 @@
 .location {
+    background-color: var(--fundo-01);
     padding: 2% 5% 8.5% 5%;
+    text-align: center;
 }
+
 .location h2,
 .location h5 {
     margin: 0;

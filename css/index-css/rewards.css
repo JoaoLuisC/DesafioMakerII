@@ -1,6 +1,6 @@
 .rewards {
     padding: 2% 5%;
-    background-color: #fcfcfc;
+    background-color: var(--fundo-02);
 }
 
 .rewards header {

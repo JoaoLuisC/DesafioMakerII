@@ -1,12 +1,7 @@
 .user-requirements {
     padding: 2% 5%;
     position: relative;
-    background-color: #222;
-    /* background-image: url('/images/fundo-maker5.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; */
-
+    background-color: var(--fundo-03);
 }
 
 .user-requirements header {
@@ -14,7 +9,7 @@
 }
 
 .user-requirements header h2 {
-    color: #ffffffe7;
+    color: #222;
     margin: 0;
     padding: 1% 0;
 }

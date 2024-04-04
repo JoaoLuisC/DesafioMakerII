@@ -1,0 +1,41 @@
+.schedule {
+    padding: 2% 5% 6.5% 5%;
+    background-color: var(--fundo-01);
+}
+
+.schedule header {
+    text-align: center;
+    padding: 1% 0;
+}
+
+.schedule-text {
+    padding: 2% 0;
+}
+
+.schedule-table {
+    width: 100%;
+}
+
+.schedule-table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.schedule-table thead tr {
+    background-color: var(--green);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.schedule-table tbody tr td {
+    background-color: var(--fundo-05);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.schedule-table tbody tr:nth-child(odd) td {
+    background-color: var(--fundo-02);
+    /* Ou a cor cinza que preferir */
+}
