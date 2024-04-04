@@ -7,8 +7,15 @@
 
 
 :root {
+    --fundo-01: #fff;
+    --fundo-02: #f7f7f3;
+    --fundo-03: #efefe6;
+    --fundo-04: #e7e7da;
+    --fundo-05: #dfdecd;
+
     --blue: #3268ba;
     --dark-blue: #092855;
+
     --green: #17882c;
     --green-opacity: #17882cd0;
     --dark-green: #00510f;

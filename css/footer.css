@@ -1,8 +1,7 @@
 .footer {
     display: block;
-    margin-top: 15%;
     padding: 2% 5%;
-    background-color: var(--green);
+    background-color: var(--dark-green);
     color: #fff;
 }
 
@@ -12,9 +11,9 @@
 }
 
 .footer-title {
+    display: flex;
     align-items: center;
-    padding-right: 0;
-    border-right: solid var(--dark-green) 0.2em;
+    border-right: solid var(--green) 0.2em;
 }
 
 .footer p {

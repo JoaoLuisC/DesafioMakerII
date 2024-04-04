@@ -1,11 +1,7 @@
 .datetime {
     padding: 2% 5% 8.5% 5%;
     text-align: center;
-    background-color: #444;
-    /* background-image: url('/images/');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
+    background-color: var(--fundo-04);
 }
 
 .datetime h2,
@@ -26,7 +22,7 @@
 
 .datetime header h2,
 .datetime header h4 {
-    color: #fff;
+    color: #222;
 }
 
 .datetime-text {

@@ -1,13 +1,12 @@
 .contacts {
     padding: 2% 5%;
-    background-color: #222;
+    background-color: var(--fundo-05);
     text-align: center;
 }
 
 .contacts header {
     padding-bottom: 4%;
-    color: #fff;
-    text-align: left;
+    color: #222;
 }
 
 .contacts h2 {

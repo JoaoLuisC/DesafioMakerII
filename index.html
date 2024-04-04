@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <!-- CSS DO INDEX -->
     <link rel="stylesheet" type="text/css" href="css/index-css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/index-css/schedule.css">
     <link rel="stylesheet" type="text/css" href="css/index-css/userRequirements.css">
     <link rel="stylesheet" type="text/css" href="css/index-css/rewards.css">
     <link rel="stylesheet" type="text/css" href="css/index-css/datetime.css">
@@ -26,10 +27,12 @@
 </head>
 
 <body>
+
     <!--NAVBAR requisitado a partir de js-->
     <header class="header-nav" id="header-inicio">
         <div id="header-container" class="navbar-index"></div>
     </header>
+
     <main>
 
         <!-- SECTION INICIO -->
@@ -40,7 +43,8 @@
                     <img src="images/logo-conceito.png" alt="Logo do II Desafio Maker">
                     <h4><i class="fa-solid fa-location-dot"></i> IFSULDEMINAS - Campus Machado</h4>
                     <h4><i class="fa-solid fa-calendar"></i> 15 de Maio de 2024</h4>
-                    <!-- <span><a href="">INSCREVA-SE</a></span> -->
+                    <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSeeebtu5KsHRKffmXDIrZLfLo3veUlyqo-lLM6pT-V8M6Za-Q/closedform"
+                            target="_blank">INSCREVA-SE</a></span>
                     <h5>Inscrições em breve !</h5>
                 </div>
             </div>
@@ -49,6 +53,7 @@
         <!-- SECTION DE HOME -->
         <section class="home">
             <header class="home-title">
+                <img src="images/logo-ifmachado.png" alt="" class="logoif">
                 <h1>II Desafio Maker</h1>
                 <h5>IFSULDEMINAS</h5>
             </header>
@@ -76,6 +81,64 @@
                 <div class="home-img col-md-12 col-lg-6">
                     <img src="images/conceito-invencao.jpg" alt="Imagem Desafio Marker II.">
                 </div>
+            </div>
+        </section>
+
+        <span id="section-schedule"></span>
+
+        <!-- SECTION DA PROGRAMAÇÃO -->
+        <section class="schedule">
+            <header>
+                <h2>Programação do Evento</h2>
+                <h5>Locais e Horários das Atividades</h5>
+            </header>
+            <div class="schedule-text">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Atividade</th>
+                            <th>Local</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Welcome Coffee</td>
+                            <td>DEFINIR</td>
+                            <td>08:00 - 08:20</td>
+                        </tr>
+                        <tr>
+                            <td>Cerimônia de Abertura</td>
+                            <td>DEFINIR</td>
+                            <td>08:20 - 08:45</td>
+                        </tr>
+                        <tr>
+                            <td>Regras do Desafio</td>
+                            <td>DEFINIR</td>
+                            <td>08:45 - 09:15</td>
+                        </tr>
+                        <tr>
+                            <td>Desafio</td>
+                            <td>DEFINIR</td>
+                            <td>09:15 - 15:15</td>
+                        </tr>
+                        <tr>
+                            <td>Café</td>
+                            <td>DEFINIR</td>
+                            <td>15:15 - 15:30</td>
+                        </tr>
+                        <tr>
+                            <td>Entrega: Pitch Final</td>
+                            <td>DEFINIR</td>
+                            <td>15:30 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Premiação e Encerramento</td>
+                            <td>DEFINIR</td>
+                            <td>16:00 - 16:30</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -169,6 +232,7 @@
                 </div>
             </div>
         </section>
+
         <!-- SECTION DA LOCALIZAÇAO -->
         <section class="location">
             <header>
@@ -182,6 +246,7 @@
                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
+
         <!-- SECTION DE CONTATOS -->
         <section class="contacts" id="section-contacts">
             <header>
@@ -215,11 +280,14 @@
 
             </div>
         </section>
+
     </main>
+
     <!-- Footer requisitado a partir de js -->
     <footer class="footer">
         <div id="footer-container"></div>
     </footer>
+
     <!-- Scripits BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -227,11 +295,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
         </script>
+
     <!-- Scripits NAVBAR, FOOTER e TEPORIZADOR -->
     <script src="script/navbar.js"></script>
     <script src="script/footer.js"></script>
     <script src="script/actions.js"></script>
     <script src="script/datetime.js"></script>
+
 </body>
 
 </html>
