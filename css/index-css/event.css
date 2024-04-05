@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+#logobranca {
+    width: 60%;
+
+}
 
 .event .img-fundo {
     position: absolute;
