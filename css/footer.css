@@ -13,10 +13,27 @@
 .footer-title {
     display: flex;
     align-items: center;
-    border-right: solid var(--green) 0.2em;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-title img {
+    width: 200px;
+    margin: auto;
 }
 
 .footer p {
     margin: 0;
     font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .row {
+        row-gap: 50px;
+    }
 }

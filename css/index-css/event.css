@@ -3,11 +3,16 @@
     align-items: center;
     justify-content: left;
     height: 100vh;
+    position: relative;
 }
 
 #logobranca {
-    width: 60%;
-
+    width: 200px;
+    top: 4%;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+    z-index: 2;
 }
 
 .event .img-fundo {
@@ -22,19 +27,17 @@
     background-size: cover;
 }
 
-
 .event-text {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     height: 100vh;
-    /* background-color: #ffb301c5; */
     background-color: var(--green-opacity);
     padding: 0 30px;
     text-align: center;
     z-index: 1;
 }
-
 
 .event-text h4,
 .event-text h5,
@@ -43,14 +46,12 @@
     color: #fff;
 }
 
-
 .event img {
     display: block;
     margin: auto;
-    width: 400px;
+    width: 350px;
     object-fit: cover;
 }
-
 
 .event-text h4,
 .event-text span,
