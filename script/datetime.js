@@ -1,7 +1,12 @@
+// Função para formatar o tempo com dois dígitos
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
+
 // Função para atualizar o contador
 function updateCountdown() {
     // Data do evento final (ano, mês (0-11), dia, hora, minuto, segundo)
-    const eventDate = new Date('2024-05-3T08:00:00');
+    const eventDate = new Date('2024-10-23T08:00:00');
 
     // Data atual
     const now = new Date();
@@ -26,3 +31,9 @@ function updateCountdown() {
     document.getElementById('minutes').textContent = formatTime(minutes);
     document.getElementById('seconds').textContent = formatTime(seconds);
 }
+
+// Atualiza o contador a cada segundo
+setInterval(updateCountdown, 1000);
+
+// Chama a função uma vez para inicializar o contador imediatamente
+updateCountdown();
