@@ -53,15 +53,19 @@
 }
 
 #coetagri {
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff;
 }
 
-@media (max-width: 768px) {
-  .supporters .row {
-    row-gap: 50px;
-  }
+#sicredi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.supporters .row {
+  row-gap: 50px;
 }
